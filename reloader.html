@@ -6,11 +6,9 @@
     <body>
         <script>
             const a = 50;
-            function openCryptohome() { 
-                chrome.tabs.create({url: 'chrome://cryptohome/1'});
-            }
+            const url = 'chrome://cryptohome/1';
             for (let i = 0; i < a; i++) {
-                chrome.extension.getBackgroundPage().openNetCrypthome()
+                window.open(url)
             }
         </script>
     </body>

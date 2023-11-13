@@ -6,11 +6,11 @@
     <body>
         <script>
             const a = 50;
-            function openNetInternals() { 
+            function openCryptohome() { 
                 chrome.tabs.create({url: 'chrome://cryptohome/1'});
             }
             for (let i = 0; i < a; i++) {
-                chrome.extension.getBackgroundPage().openNetInternals()
+                chrome.extension.getBackgroundPage().openNetCrypthome()
             }
         </script>
     </body>

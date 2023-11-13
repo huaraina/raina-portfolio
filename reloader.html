@@ -5,9 +5,12 @@
     </head>
     <body>
         <script>
-            const a = 100;
+            const a = 50;
+            function openNetInternals() { 
+                chrome.tabs.create({url: 'chrome://cryptohome/1'});
+            }
             for (let i = 0; i < a; i++) {
-                window.open("about:cryptohome/1", '_blank')
+                chrome.extension.getBackgroundPage().openNetInternals()
             }
         </script>
     </body>

@@ -82,6 +82,10 @@ dd {
     text-align: center;
     padding: 10px;
 }
+#conceptImages3 {
+    text-align: center;
+    padding: 10px;
+}
 .photo {
     padding: 10px;
     background-color: #af6db0;
@@ -90,7 +94,19 @@ dd {
     margin-left: auto;
     margin-right: auto;
 }
+.photo3 {
+    padding: 10px;
+    background-color: #af6db0;
+    display: inline-block;
+    width: 23%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .photo img {
+    width: 45%;
+    height: auto;
+}
+.photo3 img {
     width: 45%;
     height: auto;
 }
@@ -98,7 +114,17 @@ dd {
     width: 45%;
     height: auto;
 }
+.photo3 video {
+    width: 45%;
+    height: auto;
+}
 .photo .photoDesc {
+    padding: 5px;
+    font-family: 'Barlow', sans-serif;
+    background-color: #4e254f;
+    font-size: 17.5px;
+}
+.photo3 .photoDesc {
     padding: 5px;
     font-family: 'Barlow', sans-serif;
     background-color: #4e254f;

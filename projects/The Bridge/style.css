@@ -160,6 +160,9 @@ dd {
     font-size: 17.5px;
     float: left;
 }
+.meow {
+    text-align: center;
+}
 .video .videoDesc2 {
     padding: 5px;
     padding-top: 10px;

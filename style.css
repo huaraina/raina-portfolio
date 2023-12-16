@@ -53,6 +53,8 @@ dd {
     font-size: 17.5px;
     margin-left: auto;
     margin-right: auto;
+    display: list-item;
+    list-style-type: disc;
 }
 a {
     color: #f0f8ff;

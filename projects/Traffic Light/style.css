@@ -74,6 +74,8 @@ dd {
     margin-right: auto;
     overflow-wrap: break-word;
     padding-left: 20px;
+    display: list-item;
+    list-style-type: disc;
 }
 #conceptImages {
     text-align: center;

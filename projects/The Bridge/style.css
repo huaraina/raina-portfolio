@@ -160,3 +160,12 @@ dd {
     font-size: 17.5px;
     float: left;
 }
+.video .videoDesc2 {
+    padding: 5px;
+    height: auto;
+    width: 48%;
+    font-family: 'Barlow', sans-serif;
+    background-color: #4e254f;
+    font-size: 17.5px;
+    float: right;
+}

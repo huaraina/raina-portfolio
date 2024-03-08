@@ -31,6 +31,9 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+.pIndent {
+    padding-left: 20px;
+}
 h3 {
     font-family: 'Barlow', sans-serif;
     font-size: 30px;
